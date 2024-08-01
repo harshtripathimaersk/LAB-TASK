@@ -32,17 +32,3 @@ To build an in-memory vector store that can ingest a document, generate embeddin
 
 ## Objective: 
 The goal is to create an index from a set of documents, store it in Redis, and query the index to answer questions. If the Index is already present then fetch it from the Redis Vector Store otherwise store that index in the vector store.
-
-
-#### Files
-
-- `assignment1/`
-  - `main.py`: Main script for the assignment.
-  - `utils.py`: Utility functions used in the assignment.
-  - `data/`: Directory containing data files.
-
-#### How to Run
-
-To run the script for Assignment 1, use the following command:
-```sh
-python assignment1/main.py
